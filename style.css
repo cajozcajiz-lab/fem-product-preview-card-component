@@ -1,0 +1,32 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.product-card {
+    display: flex;
+    width: 600px;
+    background-color:whitesmoke;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.product-card img {
+    width: 300px;
+    height: 100%;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.text-box {
+    margin: 12px;
+}
